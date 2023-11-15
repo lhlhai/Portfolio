@@ -48,7 +48,7 @@ $(document).ready(function () {
 //If focus if off the tab (visibility State)
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Anunay Anand";
+    document.title = "Portfolio | Hai Le Huynh Long";
     $("#favicon").attr("href", "/images/favicon.png");
   } else {
     document.title = "Come Back To Portfolio";
@@ -59,11 +59,10 @@ document.addEventListener("visibilitychange", function () {
 // Effects or texts from Typed.js Api
 let typed = new Typed(".typing-text", {
   strings: [
-    "desining",
-    "web development",
-    "backend development",
-    "full stack development",
-    "Server/Client side scripting",
+    "tester",
+    "TestOps",
+    "DevOps",
+    "SDET"
   ],
   loop: true,
   typeSpeed: 50,
