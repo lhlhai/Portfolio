@@ -1351,7 +1351,7 @@ form .button-area {
   /* transition to create a lag */
   transition-duration: 200ms;
   transition-timing-function: ease-out;
-  animation: cursorAnimation1 0.5s infinite alternate;
+  animation: cursorAnimation1 0.1s infinite alternate;
   transform: translate(-50%, -50%);
 }
 
